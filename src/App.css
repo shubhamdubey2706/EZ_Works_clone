@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 90px;
+  align-items: stretch;
+  gap: 1.2rem;
+}
+.f-half {
+  display: flex;
+  flex: 5;
+}
+.column-3 {
+  flex: 2;
+  display: flex;
+}
+.column-7 {
+  flex: 8;
+  display: flex;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+.grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  gap: 1.3rem;
+}
+.action-container {
+  display: flex;
+  gap: 0.8rem;
+}
+@media screen and (max-width: 480px) {
+  .container {
+    border: 3px solid red;
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
